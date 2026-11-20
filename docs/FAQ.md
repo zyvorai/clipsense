@@ -26,7 +26,7 @@ Nothing is disabled. A status line shows where your licence stands.
 
 **How much does it cost?**
 
-Pricing is coming. For now it is trial only; write to sales@zyvor.dev if you want to be told when licences open.
+Price: ₹1,499 per Mac, one-time, including GST and one year of updates (about US$15). Teams of 5 or more Macs: ₹1,249 per Mac, by invoice. Write to sales@zyvor.dev to buy.
 
 **Are the screenshots real?**
 
