@@ -25,7 +25,7 @@ Recognises stack traces, JSON, kubeconfigs, secrets and JWTs and redacts, pretty
 | **Get it** | [ClipSense 0.2.0](https://github.com/zyvorai/clipsense/releases/tag/v0.2.0): `ClipSense-0.2.0.dmg` (SHA-256 `9e7fcf271e334ab4699e8ccc806ca9d805099927c0db25fd7c970c1c5fee3980`) |
 | **Free 30-day trial key** | **sales@zyvor.dev**. Enter it under **Licence…**. You do not need a key to use the app. |
 | **Requirements** | macOS 27 or later, Apple silicon |
-| **Pricing** | Coming. Trial only for now. |
+| **Pricing** | ₹1,499 per Mac, one-time, including GST and one year of updates (about US$15). Teams of 5 or more Macs: ₹1,249 per Mac, by invoice. |
 
 ## See it
 
@@ -50,7 +50,7 @@ Recognises stack traces, JSON, kubeconfigs, secrets and JWTs and redacts, pretty
 
 ## Trial and licence
 
-Free 30-day trial key: sales@zyvor.dev. Without a key, or after a trial, nothing is disabled. Paid licences are not on sale yet. Licensed under the [Zyvor Production License v1.0](LICENSE); see [NOTICE](NOTICE) and [docs/LICENSING.md](docs/LICENSING.md).
+Free 30-day trial key: sales@zyvor.dev. Without a key, or after a trial, nothing is disabled. Paid licences: ₹1,499 per Mac, one-time, including GST and one year of updates (about US$15). Teams of 5 or more Macs: ₹1,249 per Mac, by invoice. Contact sales@zyvor.dev. Licensed under the [Zyvor Production License v1.0](LICENSE); see [NOTICE](NOTICE) and [docs/LICENSING.md](docs/LICENSING.md).
 
 **The ClipSense source code is private.** This repository holds documentation, website and downloads.
 

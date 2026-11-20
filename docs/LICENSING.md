@@ -13,7 +13,7 @@ Write to [sales@zyvor.dev](mailto:sales@zyvor.dev?subject=ClipSense%20trial%20ke
 
 ## Paid licences
 
-ClipSense is a paid app, currently trial only. Pricing is coming; contact sales@zyvor.dev to be told when licences open.
+ClipSense is a paid app. Price: ₹1,499 per Mac, one-time, including GST and one year of updates (about US$15). Teams of 5 or more Macs: ₹1,249 per Mac, by invoice. Contact sales@zyvor.dev to buy.
 
 ## Terms
 
