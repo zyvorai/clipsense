@@ -26,7 +26,7 @@ Nothing is disabled. A status line shows where your licence stands.
 
 **How much does it cost?**
 
-Price: ₹1,499 per Mac, one-time, including GST and one year of updates (about US$15). Teams of 5 or more Macs: ₹1,249 per Mac, by invoice. Write to sales@zyvor.dev to buy.
+Price: INR 1,499 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$15 excl. tax outside India). Teams of 5 or more Macs: INR 1,249 per Mac (about US$13 excl. tax), minimum 5 Macs (INR 6,245, about US$63), by invoice. Write to sales@zyvor.dev to buy.
 
 **Are the screenshots real?**
 
