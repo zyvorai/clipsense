@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<title>Zyvor ClipSense · The clipboard that knows what you copied.</title>
+<meta name="description" content="ClipSense for macOS 27 or later: a content-aware clipboard manager. Spots stack traces, JSON, kubeconfigs, secrets and JWTs, and redacts or pretty-prints in one click. Encrypted history, no network. Notarized download, 30-day trial key.">
+<link rel="canonical" href="https://zyvorai.github.io/clipsense/">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zyvor ClipSense">
+<meta property="og:title" content="Zyvor ClipSense · The clipboard that knows what you copied.">
+<meta property="og:description" content="A content-aware clipboard manager for macOS 27 or later. Encrypted history, no network. Notarized download, 30-day trial key.">
+<meta property="og:url" content="https://zyvorai.github.io/clipsense/">
+<meta property="og:image" content="https://zyvorai.github.io/clipsense/social/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ClipSense History window rendered with invented sample data.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://zyvorai.github.io/clipsense/social/og.png">
+<link rel="stylesheet" href="assets/landing.css">
+<style>:root{--accent-btn:#c2410c;--accent-ink:#c2410c;--accent-grad-a:#ff5a15;--accent-grad-b:#fed7aa}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--accent-ink:#fb923c}}:root[data-theme="dark"]{--accent-ink:#fb923c}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor ClipSense","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS","softwareVersion":"0.2.0","downloadUrl":"https://github.com/zyvorai/clipsense/releases/tag/v0.2.0","url":"https://zyvorai.github.io/clipsense/","description":"ClipSense for macOS 27 or later: a content-aware clipboard manager. Spots stack traces, JSON, kubeconfigs, secrets and JWTs, and redacts or pretty-prints in one click. Encrypted history, no network. Notarized download, 30-day trial key.","image":"https://zyvorai.github.io/clipsense/social/og.png","publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <a class="brand" href="./" aria-label="ClipSense home"><img src="icon.png" width="26" height="26" alt=""><span>ClipSense</span></a>
+  <nav aria-label="Primary"><ul><li><a href="#features">Features</a></li><li><a href="#start">Get started</a></li><li><a href="#licence">Licence</a></li><li><a href="#faq">FAQ</a></li><li><a href="docs/">Docs</a></li></ul></nav>
+  <a class="btn small primary" href="https://github.com/zyvorai/clipsense/releases/tag/v0.2.0">Download</a>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="top">
+  <img class="icon" src="icon.png" width="96" height="96" alt="ClipSense app icon">
+  <p class="eyebrow">Zyvor · content-aware clipboard</p>
+  <h1 id="top">ClipSense</h1>
+  <p class="tagline">The clipboard that knows what you copied.</p>
+  <p class="promise"><strong>Stays on this Mac.</strong> ClipSense recognises stack traces, JSON, kubeconfigs, secrets and JWTs, and redacts, pretty-prints or decodes them in one click. History is encrypted with a key in your Keychain, and the app has no network entitlement.</p>
+  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/clipsense/releases/tag/v0.2.0">Download the 30-day trial</a><a class="textlink" href="#features">Learn more</a></p>
+  <p class="fine">macOS 27 or later · Apple silicon · notarized · Free 30-day trial key: sales@zyvor.dev</p>
+  <figure class="shot hero-shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/history-json-dark.webp"><img src="assets/img/history-json-light.webp" width="1040" height="700" alt="ClipSense History window on invented sample data: a list of clips, a JSON preview and an action bar." fetchpriority="high" decoding="async"></picture><figcaption>The History window. Real app, invented sample data and fake secrets: not anyone's clipboard.</figcaption></figure>
+</section>
+
+<section class="band" aria-label="Overview">
+  <h2>Copy anything. Leak nothing.</h2>
+  <p>Concealed clips from password managers are never read. Secrets are masked by default. Nothing leaves your Mac.</p>
+</section>
+
+<div id="features">
+<h2 class="sr">Features</h2>
+<section class="feature" id="f1" aria-labelledby="h1"><div class="grid"><div class="copy"><p class="eyebrow">Recognise</p><h3 id="h1">It knows what you copied.</h3><p>Stack traces, JSON, kubeconfigs, secrets and JWTs are recognised the moment they hit the clipboard, with the right action one click away. History keeps the original, so nothing is lost.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/history-json-dark.webp"><img src="assets/img/history-json-light.webp" width="1040" height="700" alt="ClipSense History window on invented sample data: a list of clips with kind chips and a JSON preview with a Pretty-print action bar." loading="lazy" decoding="async"></picture><figcaption>Sample data.</figcaption></figure></div></section><section class="feature flip" id="f2" aria-labelledby="h2"><div class="grid"><div class="copy"><p class="eyebrow">Redact</p><h3 id="h2">Secrets never leave by accident.</h3><p>AWS, GitHub, Slack, Stripe and Google keys, private keys, bearer tokens, URL passwords and high-entropy strings are shown masked. Control-Option-Command-R redacts the current clipboard from anywhere. By default, clips that contain secrets are never written to disk.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/history-secret-dark.webp"><img src="assets/img/history-secret-light.webp" width="1040" height="700" alt="ClipSense showing a clip with a masked secret on invented sample data, with a Redact action." loading="lazy" decoding="async"></picture><figcaption>Sample data.</figcaption></figure></div></section><section class="feature" id="f3" aria-labelledby="h3"><div class="grid"><div class="copy"><p class="eyebrow">Decode</p><h3 id="h3">JWTs, readable.</h3><p>See the claims and expiry of a token without pasting it into a website. ClipSense decodes the header and payload on your Mac and says plainly that it does not verify the signature.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/history-jwt-dark.webp"><img src="assets/img/history-jwt-light.webp" width="1040" height="700" alt="ClipSense decoding a JSON Web Token on invented sample data: header, claims and expiry." loading="lazy" decoding="async"></picture><figcaption>Sample data.</figcaption></figure></div></section><section class="feature flip" id="f4" aria-labelledby="h4"><div class="grid"><div class="copy"><p class="eyebrow">Clusters</p><h3 id="h4">Kubeconfig in, context out.</h3><p>Copy a kubeconfig and ClipSense lists its contexts. Open in Cluster Context starts a Terminal on a private copy and leaves your own ~/.kube/config untouched. The copy is deleted when the shell exits.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/history-kubeconfig-dark.webp"><img src="assets/img/history-kubeconfig-light.webp" width="1040" height="700" alt="ClipSense kubeconfig clip on invented sample data with context list and an Open in Cluster Context action." loading="lazy" decoding="async"></picture><figcaption>Sample data.</figcaption></figure></div></section><section class="feature" id="f5" aria-labelledby="h5"><div class="grid"><div class="copy"><p class="eyebrow">Menu bar</p><h3 id="h5">Right there when you need it.</h3><p>A glass popover from the menu bar shows your latest clips and their actions. Shortcuts for everything: Command-Return copy, Shift-Command-P pretty-print, Shift-Command-R redact, Shift-Command-D decode.</p></div><figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/popover-json-dark.webp"><img src="assets/img/popover-json-light.webp" width="520" height="640" alt="ClipSense menu-bar popover on invented sample data showing a JSON clip." loading="lazy" decoding="async"></picture><figcaption>Sample data.</figcaption></figure></div></section>
+</div>
+
+<section class="steps" id="start" aria-labelledby="steps-h">
+  <h2 id="steps-h">Get started in three steps.</h2>
+  <ol><li><h3>Download</h3><p>Get <code>ClipSense-0.2.0.dmg</code> from the release page. The SHA-256 is below and in <code>ClipSense-0.2.0.dmg.sha256</code>.</p></li><li><h3>Install</h3><p>Open the DMG and drag ClipSense to Applications. It requires <b>macOS 27 or later</b> on Apple silicon and lives in the menu bar.</p></li><li><h3>Get a trial key</h3><p>Write to <a href="mailto:sales@zyvor.dev?subject=ClipSense%20trial%20key">sales@zyvor.dev</a> for a free 30-day trial key. It works without one.</p></li></ol>
+  <div class="sha"><p>ClipSense 0.2.0 for Mac · SHA-256</p><pre><code id="sha">9e7fcf271e334ab4699e8ccc806ca9d805099927c0db25fd7c970c1c5fee3980</code></pre><p>Verify: <code>echo "9e7fcf271e334ab4699e8ccc806ca9d805099927c0db25fd7c970c1c5fee3980 ClipSense-0.2.0.dmg" | shasum -a 256 -c</code></p></div>
+  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/clipsense/releases/download/v0.2.0/ClipSense-0.2.0.dmg">Download ClipSense-0.2.0.dmg</a><a class="textlink" href="https://github.com/zyvorai/clipsense/releases/tag/v0.2.0">Release page</a><a class="textlink" href="https://zyvorai.github.io/clipsense/docs/">Docs</a></p>
+</section>
+
+<section class="pricing" id="licence" aria-labelledby="pricing-h">
+  <div class="inner">
+  <h2 id="pricing-h" style="text-align:left">Trial and licence.</h2>
+  <p class="lead">ClipSense is a paid app, currently <strong>trial only</strong>: a free 30-day trial key from <a href="mailto:sales@zyvor.dev?subject=ClipSense%20trial%20key">sales@zyvor.dev</a>. Pricing is coming. It never switches features off: with no key, or after a trial ends, everything keeps working and a status line says where you stand.</p>
+  <p class="fine"><a href="https://github.com/zyvorai/clipsense/blob/main/docs/LICENSING.md">Trial and licence details</a> · <a href="https://github.com/zyvorai/clipsense/blob/main/LICENSE">Zyvor Production License v1.0</a>.</p>
+  </div>
+</section>
+
+<section class="faq" id="faq" aria-labelledby="faq-h">
+  <h2 id="faq-h">Questions, answered.</h2>
+  <details><summary>Does ClipSense send anything over the network?</summary><p>No. It ships with an empty entitlements file and the hardened runtime: no network client entitlement. Check it yourself with <code>codesign -d --entitlements - /Applications/ClipSense.app</code>. Note that it is not sandboxed.</p></details>
+<details><summary>Does it read my password manager?</summary><p>No. Clips marked concealed, transient or auto-generated, clips from known password-manager types, and copies made while a known password manager was in front are skipped and only counted, never stored.</p></details>
+<details><summary>How is history stored?</summary><p>One AES-256-GCM encrypted file in Application Support. The key is random and lives only in your login Keychain. If the Keychain refuses, history stays in memory; there is no plaintext fallback. Clips over 256 KB are not recorded.</p></details>
+<details><summary>Will macOS ask about pasteboard access?</summary><p>It may. macOS can show &ldquo;Allow paste from other apps&rdquo; the first time an app reads the pasteboard without a paste. The Welcome window explains it first. If you deny it, ClipSense stops reading and says so; nothing is switched off by licensing.</p></details>
+<details><summary>Is there a free trial?</summary><p>Yes: a free 30-day trial key from sales@zyvor.dev. Without a key everything still works.</p></details>
+<details><summary>What happens without a key, or when a trial ends?</summary><p>Nothing is disabled. A status line shows where your licence stands.</p></details>
+<details><summary>How much does it cost?</summary><p>Pricing is coming. For now it is trial only; write to sales@zyvor.dev if you want to be told when licences open.</p></details>
+<details><summary>Are the screenshots real?</summary><p>They are the real app windows rendered with invented sample data and fake secrets, not captures of anyone's clipboard.</p></details>
+<details><summary>Which macOS versions?</summary><p>macOS 27 or later, Apple silicon.</p></details>
+  <p class="fine" style="margin-top:1.2rem"><b>Early release.</b> Beyond its automated self-tests, the interactive click-through, the macOS pasteboard-access prompt, VoiceOver and a clean-Mac install have not been tested by us.</p>
+</section>
+</main>
+<footer class="footer">
+  <p><strong>Zyvor ClipSense</strong> · The ClipSense source code is private.</p>
+  <p class="links"><a href="docs/">Docs</a><a href="https://github.com/zyvorai/clipsense/blob/main/CHANGELOG.md">Changelog</a><a href="https://github.com/zyvorai/clipsense/releases/tag/v0.2.0">Release</a><a href="https://github.com/zyvorai/clipsense">GitHub</a><a href="https://github.com/zyvorai/clipsense/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/clipsense/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
+  <p>© 2026 Zyvor AI Labs Private Limited · <a href="https://zyvor.dev">zyvor.dev</a> · Zyvor Production License v1.0</p>
+</footer>
+</body>
+</html>
