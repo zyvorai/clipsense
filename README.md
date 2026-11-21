@@ -25,7 +25,7 @@ Recognises stack traces, JSON, kubeconfigs, secrets and JWTs and redacts, pretty
 | **Get it** | [ClipSense 0.2.0](https://github.com/zyvorai/clipsense/releases/tag/v0.2.0): `ClipSense-0.2.0.dmg` (SHA-256 `9e7fcf271e334ab4699e8ccc806ca9d805099927c0db25fd7c970c1c5fee3980`) |
 | **Free 30-day trial key** | **sales@zyvor.dev**. Enter it under **Licence…**. You do not need a key to use the app. |
 | **Requirements** | macOS 27 or later, Apple silicon |
-| **Pricing** | INR 1,499 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$15 excl. tax outside India). Teams of 5 or more Macs: INR 1,249 per Mac (about US$13 excl. tax), minimum 5 Macs (INR 6,245, about US$63), by invoice. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev. Buy: [zyvor.dev/buy](https://zyvor.dev/buy#clipsense) (free 30-day trial first). |
+| **Pricing** | INR 1,499 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$15 excl. tax outside India). Teams of 5 or more Macs: INR 1,249 per Mac (about US$13 excl. tax), minimum 5 Macs (INR 6,245, about US$63), by invoice. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees). Orders of USD 5,000 or more and quotes are invoiced in USD through Skydo. Custom pricing: contact sales@zyvor.dev. Buy: [zyvor.dev/buy](https://zyvor.dev/buy#clipsense) (free 30-day trial first). |
 
 ## See it
 
@@ -50,7 +50,7 @@ Recognises stack traces, JSON, kubeconfigs, secrets and JWTs and redacts, pretty
 
 ## Trial and licence
 
-Free 30-day trial key: sales@zyvor.dev. Without a key, or after a trial, no data is lost; a commercial license is required for production use. Paid licences: INR 1,499 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$15 excl. tax outside India). Teams of 5 or more Macs: INR 1,249 per Mac (about US$13 excl. tax), minimum 5 Macs (INR 6,245, about US$63), by invoice. Contact sales@zyvor.dev. Licensed under the [Zyvor Production License v1.0](LICENSE); see [NOTICE](NOTICE) and [docs/LICENSING.md](docs/LICENSING.md).
+Free 30-day trial key: sales@zyvor.dev. Without a key, or after a trial, no data is lost; a commercial license is required for production use. Paid licences: INR 1,499 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$15 excl. tax outside India). Teams of 5 or more Macs: INR 1,249 per Mac (about US$13 excl. tax), minimum 5 Macs (INR 6,245, about US$63), by invoice. Buy: [zyvor.dev/buy](https://zyvor.dev/buy#clipsense). Licensed under the [Zyvor Production License v1.0](LICENSE); see [NOTICE](NOTICE) and [docs/LICENSING.md](docs/LICENSING.md).
 
 **The ClipSense source code is private.** This repository holds documentation, website and downloads.
 
