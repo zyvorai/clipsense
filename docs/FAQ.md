@@ -16,9 +16,9 @@ One AES-256-GCM encrypted file in Application Support. The key is random and liv
 
 It may. macOS can show “Allow paste from other apps” the first time an app reads the pasteboard without a paste. The Welcome window explains it first. If you deny it, ClipSense stops reading and says so; nothing is switched off by licensing.
 
-**Is there a free trial?**
+**Is there a trial?**
 
-Yes: a free 30-day trial key from sales@zyvor.dev. Without a key everything still works.
+Yes: a 30-day trial key from sales@zyvor.dev. Without a key everything still works.
 
 **What happens without a key, or when a trial ends?**
 

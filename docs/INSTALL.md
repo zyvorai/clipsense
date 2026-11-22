@@ -19,7 +19,7 @@ Open the DMG, drag **ClipSense** to Applications and open it. A Welcome window e
 
 ## 3. Trial key
 
-You do not need a key. Free 30-day trial key: [sales@zyvor.dev](mailto:sales@zyvor.dev?subject=ClipSense%20trial%20key). Enter it under **Licence…**. See [LICENSING.md](LICENSING.md).
+You do not need a key. 30-day trial key: [sales@zyvor.dev](mailto:sales@zyvor.dev?subject=ClipSense%20trial%20key). Enter it under **Licence…**. See [LICENSING.md](LICENSING.md).
 
 ## Uninstall
 
