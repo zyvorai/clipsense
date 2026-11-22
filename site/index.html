@@ -23,8 +23,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://zyvorai.github.io/clipsense/social/og.png">
 <link rel="stylesheet" href="assets/landing.css">
+<link rel="stylesheet" href="assets/zyvor-buyer.css">
 <style>:root{--accent-btn:#c2410c;--accent-ink:#c2410c;--accent-grad-a:#ff5a15;--accent-grad-b:#fed7aa}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--accent-ink:#fb923c}}:root[data-theme="dark"]{--accent-ink:#fb923c}</style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor ClipSense","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS","softwareVersion":"0.2.0","downloadUrl":"https://github.com/zyvorai/clipsense/releases/tag/v0.2.0","url":"https://zyvorai.github.io/clipsense/","description":"ClipSense for macOS 27 or later: a content-aware clipboard manager. Spots stack traces, JSON, kubeconfigs, secrets and JWTs, and redacts or pretty-prints in one click. Encrypted history, no network. Notarized download, 30-day trial key.","image":"https://zyvorai.github.io/clipsense/social/og.png","publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"},"offers":[{"@type":"Offer","name":"ClipSense (per Mac) (India, incl. 18% GST)","price":"1499","priceCurrency":"INR","url":"https://zyvor.dev/buy#clipsense"},{"@type":"Offer","name":"ClipSense (per Mac) (outside India, excl. tax)","price":"15","priceCurrency":"USD","url":"https://zyvor.dev/buy#clipsense"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor ClipSense","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS","softwareVersion":"0.2.0","downloadUrl":"https://github.com/zyvorai/clipsense/releases/tag/v0.2.0","url":"https://zyvorai.github.io/clipsense/","description":"ClipSense for macOS 27 or later: a content-aware clipboard manager. Spots stack traces, JSON, kubeconfigs, secrets and JWTs, and redacts or pretty-prints in one click. Encrypted history, no network. Notarized download, 30-day trial key.","image":"https://zyvorai.github.io/clipsense/social/og.png","publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"}}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -40,9 +41,22 @@
   <h1 id="top">ClipSense</h1>
   <p class="tagline">The clipboard that knows what you copied.</p>
   <p class="promise"><strong>Stays on this Mac.</strong> ClipSense recognises stack traces, JSON, kubeconfigs, secrets and JWTs, and redacts, pretty-prints or decodes them in one click. History is encrypted with a key in your Keychain, and the app has no network entitlement.</p>
-  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/clipsense/releases/tag/v0.2.0">Download the 30-day trial</a><a class="textlink" href="#features">Learn more</a></p>
-  <p class="fine">macOS 27 or later · Apple silicon · notarized · Free 30-day trial key: sales@zyvor.dev</p>
+  <div class="buyer" role="group" aria-label="Get ClipSense">
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/zyvorai/clipsense/releases/download/v0.2.0/ClipSense-0.2.0.dmg">Download ClipSense 0.2.0</a>
+      <a class="btn ghost" href="https://zyvor.dev/contact?intent=trial&amp;product=clipsense" rel="noopener">Ask for a 30-day trial</a>
+      <a class="btn ghost" href="https://zyvor.dev/buy" rel="noopener">Buy a license</a>
+    </div>
+    <p class="sub">ClipSense-0.2.0.dmg · <a href="https://zyvor.dev/pricing" rel="noopener">See current prices</a> · <a href="https://github.com/zyvorai/clipsense/releases/tag/v0.2.0">All downloads</a></p>
+    <p class="trust"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><span><strong>Verified by Apple:</strong> Developer ID signed and notarized. This applies to the 0.2.0 DMG.</span></p>
+    <ul class="reqs"><li>Requires macOS 27 or later on Apple silicon.</li></ul>
+  </div>
   <figure class="shot hero-shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/history-json-dark.webp"><img src="assets/img/history-json-light.webp" width="1040" height="700" alt="ClipSense History window on invented sample data: a list of clips, a JSON preview and an action bar." fetchpriority="high" decoding="async"></picture><figcaption>The History window. Real app, invented sample data and fake secrets: not anyone's clipboard.</figcaption></figure>
+</section>
+
+<section class="outcomes" aria-labelledby="outcomes-h">
+  <h2 id="outcomes-h">Copy freely. Keep your secrets.</h2>
+  <ul class="tiles"><li class="tile"><h3>It knows what you copied</h3><p>Stack traces, JSON, kubeconfigs, secrets and JWTs are recognised the moment they hit the clipboard, with the right action one click away.</p></li><li class="tile"><h3>Secrets never leave by accident</h3><p>AWS, GitHub, Slack, Stripe and Google keys, private keys, bearer tokens and URL passwords are shown masked, and one shortcut redacts the current clipboard.</p></li><li class="tile"><h3>JWTs, readable</h3><p>See the claims and expiry of a token without pasting it into a website. It is decoded on your Mac, and ClipSense says it does not verify the signature.</p></li></ul>
 </section>
 
 <section class="band" aria-label="Overview">
@@ -62,14 +76,11 @@
   <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/clipsense/releases/download/v0.2.0/ClipSense-0.2.0.dmg">Download ClipSense-0.2.0.dmg</a><a class="textlink" href="https://github.com/zyvorai/clipsense/releases/tag/v0.2.0">Release page</a><a class="textlink" href="https://zyvorai.github.io/clipsense/docs/">Docs</a></p>
 </section>
 
-<section class="pricing" id="licence" aria-labelledby="pricing-h">
-  <div class="inner">
-  <h2 id="pricing-h" style="text-align:left">Trial and licence.</h2>
-  <p class="lead">ClipSense is a paid app, with a free 30-day trial key from <a href="mailto:sales@zyvor.dev?subject=ClipSense%20trial%20key">sales@zyvor.dev</a>. Price: INR 1,499 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$15 excl. tax outside India). Teams of 5 or more Macs: INR 1,249 per Mac (about US$13 excl. tax), minimum 5 Macs (INR 6,245, about US$63), by invoice. To buy, contact <a href="mailto:sales@zyvor.dev?subject=ClipSense%20licence">sales@zyvor.dev</a>. It never switches features off: with no key, or after a trial ends, everything keeps working and a status line says where you stand.</p>
-  <p class="fine">Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev.</p>
-  <p class="cta"><a class="btn primary" href="https://zyvor.dev/buy#clipsense" rel="noopener">Buy ClipSense</a><a class="btn ghost" href="mailto:sales@zyvor.dev?subject=ClipSense%2030-day%20trial%20key">Start 30-day trial</a></p>
-  <p class="fine"><a href="https://github.com/zyvorai/clipsense/blob/main/docs/LICENSING.md">Trial and licence details</a> · <a href="https://github.com/zyvorai/clipsense/blob/main/LICENSE">Zyvor Production License v1.0</a>.</p>
-  </div>
+<section class="buy-pointer" id="licence" aria-labelledby="pricing-h">
+  <h2 id="pricing-h">Prices and licenses</h2>
+  <p>Current prices, in your currency where available, are on zyvor.dev. You can evaluate for 30 days before you decide.</p>
+  <p class="cta"><a class="btn primary" href="https://zyvor.dev/buy" rel="noopener">Buy a license</a><a class="btn ghost" href="https://zyvor.dev/contact?intent=trial&amp;product=clipsense" rel="noopener">Ask for a 30-day trial</a><a class="textlink" href="https://zyvor.dev/pricing" rel="noopener">See current prices</a></p>
+  <p class="fine"><a href="https://github.com/zyvorai/clipsense/blob/main/LICENSE">LICENSE</a> · Several Macs or a larger rollout: <a href="https://zyvor.dev/contact?intent=sales&amp;product=clipsense" rel="noopener">contact sales</a>.</p>
 </section>
 
 <section class="faq" id="faq" aria-labelledby="faq-h">
@@ -80,7 +91,7 @@
 <details><summary>Will macOS ask about pasteboard access?</summary><p>It may. macOS can show &ldquo;Allow paste from other apps&rdquo; the first time an app reads the pasteboard without a paste. The Welcome window explains it first. If you deny it, ClipSense stops reading and says so; nothing is switched off by licensing.</p></details>
 <details><summary>Is there a free trial?</summary><p>Yes: a free 30-day trial key from sales@zyvor.dev. Without a key everything still works.</p></details>
 <details><summary>What happens without a key, or when a trial ends?</summary><p>Nothing is disabled. A status line shows where your licence stands.</p></details>
-<details><summary>How much does it cost?</summary><p>Price: INR 1,499 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$15 excl. tax outside India). Teams of 5 or more Macs: INR 1,249 per Mac (about US$13 excl. tax), minimum 5 Macs (INR 6,245, about US$63), by invoice. Write to sales@zyvor.dev to buy.</p></details>
+<details><summary>How much does it cost?</summary><p>Current prices are on <a href="https://zyvor.dev/pricing" rel="noopener">zyvor.dev/pricing</a>. Teams and larger rollouts can <a href="https://zyvor.dev/contact?intent=sales&amp;product=clipsense" rel="noopener">contact sales</a>.</p></details>
 <details><summary>Are the screenshots real?</summary><p>They are the real app windows rendered with invented sample data and fake secrets, not captures of anyone's clipboard.</p></details>
 <details><summary>Which macOS versions?</summary><p>macOS 27 or later, Apple silicon.</p></details>
   <p class="fine" style="margin-top:1.2rem"><b>Early release.</b> Beyond its automated self-tests, the interactive click-through, the macOS pasteboard-access prompt, VoiceOver and a clean-Mac install have not been tested by us.</p>
@@ -88,7 +99,7 @@
 </main>
 <footer class="footer">
   <p><strong>Zyvor ClipSense</strong> · The ClipSense source code is private.</p>
-  <p class="links"><a href="docs/">Docs</a><a href="https://github.com/zyvorai/clipsense/blob/main/CHANGELOG.md">Changelog</a><a href="https://github.com/zyvorai/clipsense/releases/tag/v0.2.0">Release</a><a href="https://github.com/zyvorai/clipsense">GitHub</a><a href="https://github.com/zyvorai/clipsense/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/clipsense/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
+  <p class="links"><a href="https://zyvor.dev/contact">Support</a><a href="docs/">Docs</a><a href="https://github.com/zyvorai/clipsense/blob/main/CHANGELOG.md">Changelog</a><a href="https://github.com/zyvorai/clipsense/releases/tag/v0.2.0">Release</a><a href="https://github.com/zyvorai/clipsense">GitHub</a><a href="https://github.com/zyvorai/clipsense/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/clipsense/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
   <p>© 2026 Zyvor AI Labs Private Limited · <a href="https://zyvor.dev">zyvor.dev</a> · Zyvor Production License v1.0</p>
 </footer>
 </body>
