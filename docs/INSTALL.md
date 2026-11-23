@@ -1,17 +1,17 @@
 # Install ClipSense
 
-Requires macOS 27 or later on Apple silicon. ClipSense is a menu-bar app with no Dock icon.
+Requires macOS 27 or later on Apple silicon. ClipSense lives in the menu bar. Opening it shows the History window, and it has a Dock icon while a window is open.
 
 ## 1. Download and verify
 
-Download [ClipSense-0.2.0.dmg](https://github.com/zyvorai/clipsense/releases/download/v0.2.0/ClipSense-0.2.0.dmg) and its `.sha256` file from the [release page](https://github.com/zyvorai/clipsense/releases/tag/v0.2.0). The DMG is Developer ID signed and notarized by Apple.
+Download [ClipSense-0.3.0.dmg](https://github.com/zyvorai/clipsense/releases/download/v0.3.0/ClipSense-0.3.0.dmg) and its `.sha256` file from the [release page](https://github.com/zyvorai/clipsense/releases/tag/v0.3.0). The DMG is Developer ID signed and notarized by Apple.
 
 ```
-shasum -a 256 -c ClipSense-0.2.0.dmg.sha256
-xcrun stapler validate ClipSense-0.2.0.dmg
+shasum -a 256 -c ClipSense-0.3.0.dmg.sha256
+xcrun stapler validate ClipSense-0.3.0.dmg
 ```
 
-SHA-256 of this release: `9e7fcf271e334ab4699e8ccc806ca9d805099927c0db25fd7c970c1c5fee3980`.
+SHA-256 of this release: `993df533103adb9deac6dd9d5d3b6a86a7107166b2729c67561b6c87fcd6fb14`.
 
 ## 2. Install
 
